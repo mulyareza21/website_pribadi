@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Pribadi</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      margin: 0;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .name {
+      color: green;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: black;
+      max-width: 600px;
+      margin-top: 10px;
+    }
+
+    .container hr {
+      width: 100%;
+      border: 3px solid blue;
+      margin-top: 10px;
+    }
+
+    .profile-img {
+      margin-top: 5px;
+    }
+
+    table {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Hyperlink di pojok kiri atas */
+    .top-left-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .top-left-link:hover {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hyperlink di pojok kiri atas -->
+  <a href="reza.cv.pdf" class="top-left-link">ABOUT ME</a>
+
+  <div class="container">
+    <p class="name">Reza Mulya Hidayat</p>
+    <p class="profile-img">
+      <img src="reza.jpg.jpeg" style="width: 100px; height: 100px; border-radius: 100%;" />
+    </p>
+    <hr>
+    <p class="description">
+      Halo, perkenalkan saya adalah mahasiswa di Universitas Mercu Buana semester 4 dan prodi saya Teknik Informatika, Fakultas Ilmu Komputer.
+    </p>
+
+    <!-- Tabel dengan 4 baris dan 2 kolom -->
+    <table>
+      <tr>
+        <th>Pendidikan</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>Min 7 Cengkareng</td>
+        <td>2011-2017</td>
+      </tr>
+      <tr>
+        <td>Smpn 201 Jakarta</td>
+        <td>2017-2020</td>
+      </tr>
+      <tr>
+        <td>Smk Cengkareng 2</td>
+        <td>2020-2023</td>
+      </tr>
+      <tr>
+        <td>Universitas Mercu Buana</td>
+        <td>2023-sekarang</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

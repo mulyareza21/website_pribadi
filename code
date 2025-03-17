@@ -13,6 +13,7 @@
       text-align: center;
       margin: 0;
       width: 100%;
+      position: relative;
     }
 
     .container {
@@ -43,8 +44,8 @@
       margin-top: 10px;
     }
 
-    .profile-img {
-      margin-top: 5px;
+    .profile-img img {
+      margin-top: 20px; /* Geser gambar ke bawah */
     }
 
     table {
@@ -75,6 +76,51 @@
     }
 
     .top-left-link:hover {
+      color: red;
+    }
+
+    /* Style untuk daftar keahlian */
+    .skills {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .skills h3 {
+      margin-bottom: 5px;
+    }
+
+    .skills ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* Style untuk kontak di tengah bawah keahlian */
+    .contact {
+      text-align: center; /* Pusatkan teks */
+      margin-top: 20px; /* Tambahkan jarak dari keahlian */
+      position: relative; /* Pastikan tetap dalam tata letak normal */
+    }
+
+    .contact h3 {
+      margin-bottom: 5px;
+    }
+
+    .contact ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .contact li {
+      margin-bottom: 5px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
       color: red;
     }
   </style>
@@ -117,6 +163,28 @@
         <td>2023-sekarang</td>
       </tr>
     </table>
+
+    <!-- Daftar Keahlian -->
+    <div class="skills">
+      <h3>Keahlian:</h3>
+      <ul>
+        <li>Programming (HTML, CSS, JavaScript, Python)</li>
+        <li>Desain Grafis (Adobe Photoshop, Illustrator)</li>
+        <li>Manajemen Basis Data (MySQL, PostgreSQL)</li>
+      </ul>
+    </div>
+
+    <!-- Kontak (di tengah dan di bawah keahlian) -->
+    <div class="contact">
+      <h3>Kontak:</h3>
+      <ul>
+        <li>📞 Nomor Telepon: <strong>+62 896-3085-3280</strong></li>
+        <li>📧 Email: <a href="mulyareza22@gmail.com">mulyareza22@gmail.com</a></li>
+        <li>📸 Instagram: <a href="https://www.instagram.com/mulyarz_?igsh=NzM2cDNpbTh2dWRu" target="_blank">@mulyarz_</a></li>
+      </ul>
+    </div>
+
   </div>
+
 </body>
 </html>

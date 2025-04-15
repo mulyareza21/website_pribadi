@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Pribadi</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      margin: 0;
+      width: 100%;
+      position: relative;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .name {
+      color: green;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: black;
+      max-width: 600px;
+      margin-top: 10px;
+    }
+
+    .container hr {
+      width: 100%;
+      border: 3px solid blue;
+      margin-top: 10px;
+    }
+
+    .profile-img img {
+      margin-top: 20px; /* Geser gambar ke bawah */
+    }
+
+    table {
+      margin-top: 20px;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Hyperlink di pojok kiri atas */
+    .top-left-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      color: blue;
+    }
+
+    .top-left-link:hover {
+      color: red;
+    }
+
+    /* Style untuk daftar keahlian */
+    .skills {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .skills h3 {
+      margin-bottom: 5px;
+    }
+
+    .skills ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* Style untuk kontak di tengah bawah keahlian */
+    .contact {
+      text-align: center; /* Pusatkan teks */
+      margin-top: 20px; /* Tambahkan jarak dari keahlian */
+      position: relative; /* Pastikan tetap dalam tata letak normal */
+    }
+
+    .contact h3 {
+      margin-bottom: 5px;
+    }
+
+    .contact ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .contact li {
+      margin-bottom: 5px;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hyperlink di pojok kiri atas -->
+  <a href="reza.cv.pdf" class="top-left-link">ABOUT ME</a>
+
+  <div class="container">
+    <p class="name">Reza Mulya Hidayat</p>
+    <p class="profile-img">
+      <img src="reza.jpg.jpeg" style="width: 100px; height: 100px; border-radius: 100%;" />
+    </p>
+    <hr>
+    <p class="description">
+      Halo, perkenalkan saya adalah mahasiswa di Universitas Mercu Buana semester 4 dan prodi saya Teknik Informatika, Fakultas Ilmu Komputer.
+    </p>
+
+    <!-- Tabel dengan 4 baris dan 2 kolom -->
+    <table>
+      <tr>
+        <th>Pendidikan</th>
+        <th>Tahun</th>
+      </tr>
+      <tr>
+        <td>Min 7 Cengkareng</td>
+        <td>2011-2017</td>
+      </tr>
+      <tr>
+        <td>Smpn 201 Jakarta</td>
+        <td>2017-2020</td>
+      </tr>
+      <tr>
+        <td>Smk Cengkareng 2</td>
+        <td>2020-2023</td>
+      </tr>
+      <tr>
+        <td>Universitas Mercu Buana</td>
+        <td>2023-sekarang</td>
+      </tr>
+    </table>
+
+    <!-- Daftar Keahlian -->
+    <div class="skills">
+      <h3>Keahlian:</h3>
+      <ul>
+        <li>Programming (HTML, CSS, JavaScript, Python)</li>
+        <li>Desain Grafis (Adobe Photoshop, Illustrator)</li>
+        <li>Manajemen Basis Data (MySQL, PostgreSQL)</li>
+      </ul>
+    </div>
+
+    <!-- Kontak (di tengah dan di bawah keahlian) -->
+    <div class="contact">
+      <h3>Kontak:</h3>
+      <ul>
+        <li>📞 Nomor Telepon: <strong>+62 896-3085-3280</strong></li>
+        <li>📧 Email: <a href="mulyareza22@gmail.com">mulyareza22@gmail.com</a></li>
+        <li>📸 Instagram: <a href="https://www.instagram.com/mulyarz_?igsh=NzM2cDNpbTh2dWRu" target="blank">@mulyarz</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
